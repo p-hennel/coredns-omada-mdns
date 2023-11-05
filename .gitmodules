@@ -1,0 +1,9 @@
+[submodule "coredns"]
+	path = coredns
+	url = https://github.com/coredns/coredns.git
+[submodule "coredns_omada"]
+	path = coredns_omada
+	url = https://github.com/dougbw/coredns_omada.git
+[submodule "coredns-mdns"]
+	path = coredns-mdns
+	url = https://github.com/openshift/coredns-mdns.git
