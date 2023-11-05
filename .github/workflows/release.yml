@@ -15,7 +15,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.inputs.commit }}
           submodules: 'recursive'
       - name: Set up plugins
         run: |
